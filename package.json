@@ -1,0 +1,31 @@
+{
+  "name": "api-bke-express",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo testando"
+    
+  },
+  "keywords": [
+    "backend",
+    "web server",
+    "express",
+    "node",
+    "api"
+  ],
+  "author": "Diego Soares",
+  "license": "ISC",
+  "description": "API Node com framework express para a disciplina de Desenvolvimento Web 2",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/Cosamores/api-bke-express/"
+  },
+  "bugs": {
+    "url": "https://github.com/Cosamores/api-bke-express/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
