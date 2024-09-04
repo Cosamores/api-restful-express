@@ -2,10 +2,14 @@
   "name": "api-bke-express",
   "version": "1.0.0",
   "main": "src/server.js",
+  "type": "module",
   "scripts": {
     "start": "node src/server.js",
-    "test": "echo testando"
-    
+    "dev": "node --watch src/server.js",
+    "prisma:pull": "npx prisma db pull",
+    "prisma:push": "npx prisma push",
+    "prisma:generate": "npx prisma generate"
+
   },
   "keywords": [
     "backend",
@@ -24,8 +28,12 @@
   "bugs": {
     "url": "https://github.com/Cosamores/api-bke-express/issues"
   },
-  "homepage": "",
+  "homepage": "localhost:3000",
   "dependencies": {
+    "@prisma/client": "^5.18.0",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.18.0"
   }
 }
